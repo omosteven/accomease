@@ -61,7 +61,7 @@ const Register = (props) => {
 
       PASSWORD: data.PASSWORD
     };
-    
+
     setRegisterText("Processing...");
 
     setHideProgressIcon(true);
@@ -73,7 +73,7 @@ const Register = (props) => {
     "POST",
     APISubmitUrl
   );
-
+console.log(data);
   if (isError) {
     CustomDialog(
       <CustomDialogContent

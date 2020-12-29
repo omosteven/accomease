@@ -16,7 +16,7 @@ import {
 
 import { useHistory } from "react-router-dom";
 
-import { Dots } from "react-preloaders";
+// import { Dots } from "react-preloaders";
 
 import { useForm, Controller } from "react-hook-form";
 
